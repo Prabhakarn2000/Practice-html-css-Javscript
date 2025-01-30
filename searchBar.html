@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
+        }
+        /* body{
+            background-image: url();
+        } */
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            padding: 5%;
+            background-image: linear-gradient(rgba(0,8,20,0.8),rgba(0,8,20,0.8)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdiPHq91iQ1bx1JzDOBnQqiPw17O-V8341OA&s);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .search-bar{
+            width: 100%;
+            max-width: 700px;
+            background: rgba(250,250,250,0.2);
+            display: flex;
+            align-items: center;
+            border-radius: 60px;
+            padding: 10px 20px;
+
+        }
+        .search-bar input{
+            background: transparent;
+            flex: 1;
+            border: none;
+            outline: none;
+            /*background-image: url("C:\Users\Admin\Desktop\prabhakar\tables\npy.png")*/
+            background-image: url(https://cdn-icons-png.flaticon.com/128/300/300221.png);
+            background-position: left 40%,right 8px;
+            background-size: 50px,60px;
+            background-repeat: no-repeat;
+            padding: 24px 70px;
+            font-size: 20px;
+            color: black;
+        }
+        .search-bar button{
+           height: 60px;
+           width: 50px;
+           border-color: black;
+           border: 2;
+           border-radius: 25%;
+           background-color: lightslategray;
+           cursor: pointer;
+        }
+        button img{
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="https://www.google.com/search" method="get" class="search-bar">
+            <input type="text" placeholder="Search for only PSPK" name="q" autocomplete="off" >
+            <button type="submit"><img src="C:\Users\Admin\Desktop\prabhakar\search.png" alt=""></button>
+        
+        </form>
+
+    </div>
+</body>
+</html>

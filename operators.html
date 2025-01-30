@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <Script>
+    //Operators in JS
+    //Arithmetic operators-->+,-,*,/,%
+    let a=10,b=5;
+    document.write(a+b,'<br>');
+    document.write(a-b,'<br>');
+    document.write(a*b,'<br>');
+    document.write(a/b,'<br>');
+    document.write(a%b,'<br>');
+
+    //Assignment Operators-->=,+=,-=,*=,/=,%=
+    var i=50;
+    document.write(i,'<br>');
+    i+=50;
+    document.write(i,'<br>');
+     var i=50; 
+     i-=20;
+    document.write(i,'<br>');
+     var i=50; 
+     i*=5;
+    document.write(i,'<br>');
+     var i=50; 
+     i/=5;
+    document.write(i,'<br>');
+    var i=50; 
+    i%=5;
+    document.write(i,'<br>');
+    
+    //string operators--> +,+=
+     let str1='hello',str2='world';
+    document.write(str1+str2,'<br>');
+    str1+=str2;
+    document.write(str1,'<br>');
+
+    //Increment & Decrement Operators-->++x,x++,--x,x--
+    let x=10;
+    document.write(++x,'<br>');// now x=11
+    document.write(x,'<br>');
+     x=20;
+    document.write(x++,'<br>');
+    document.write(x,'<br>');
+    let y=15;
+    document.write(--y,'<br>');
+    document.write(y,'<br>');
+    y=25;
+    document.write(y--,'<br>');
+    document.write(y,'<br>');
+    
+    //comparison operators-->==,===,!=,<,>,<=,>=
+    let p=10,q='10';
+    document.write(p==q,'<br>');
+    document.write(p===q,'<br>');
+    document.write(p!=q,'<br>');
+    p=20;
+    q=10;
+    document.write(p<q,'<br>');
+    document.write(p>q,'<br>');
+    document.write(p>=q,'<br>');
+    document.write(p<=q,'<br>');
+    
+    //Logical Operators-->AND(&&),OR(||),NOT(!)
+    let l=9;
+    if((l/3==3)&&(l/9==1)){
+        document.write('Both conditions are TRUE'+'<br>');
+    }else{
+        document.write('Any One or Both conditions are Flase'+'<br>');
+
+    }
+    if((l/3==3)||(l/9==0)){
+        document.write('Either Any One condition is TRUE'+'<br>');
+    }else{
+        document.write('Both the conditions are FALSE'+'<br>');
+        
+    }
+    if(l%3!=1){
+        document.write('Hello World'+'<br>');
+    }else{
+        document.write('Good Bye'+'<br>');
+        
+    }
+    if(!(l/3==3)||(l/9==0)){
+        document.write('TRUE'+'<br>');
+    }else{
+        document.write('!-True condition shows FALSE'+'<br>');
+    }
+//ternary operator
+    let a1=10,b1=20;
+   let result=(a1>b1)?b1:a1;
+   document.write(result)
+
+
+
+
+    
+
+    
+
+
+    
+
+
+
+   </Script>
+</body>
+</html>

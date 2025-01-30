@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <script>
+          let marks=+prompt('Enter Your marks:');
+ switch(true){
+     case (marks>=90 && marks<=100):
+        alert(`Congratulations,You Scored ${marks} Marks Passed with O grade`);
+        break;
+        case (marks>=75 && marks<90):
+           alert(`Congratulations,You Scored ${marks} Marks Passed with A grade`);
+         //  alert('Congratulations,You Scored '+ marks +' Marks Passed with A grade ');
+           break;
+           case (marks>=60 && marks<75):
+              alert(`Congratulations,You Scored ${marks} Marks Passed with B grade`);
+            //  alert('Congratulations,You Scored '+ marks +' Marks Passed with B grade ');
+              break;
+              case marks>=50 && marks<60:
+                 alert(`Congratulations,You Scored ${marks} Marks Passed with C grade`);
+               //  alert('Congratulations,You Scored '+ marks +' Marks Passed with C grade ');
+                 break;
+                 case marks>=35 && marks<50:
+        alert(`Congratulations,You Scored ${marks} Marks Passed with D grade`);
+      //  alert('Congratulations,You Scored '+ marks +' Marks Passed with A grade ');
+        break;
+     case marks<35:
+        alert(`Opps You are Failed , You Scored ${marks} Marks Better Luck next Time`);
+      //  alert('Opps You are Failed , You Scored '+ marks +' Marks Better Luck next Time');
+        break;
+   }
+     </script>
+</body>
+</html>

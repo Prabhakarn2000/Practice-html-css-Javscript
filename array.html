@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <script>
+          //let rocky=[];
+          //document.write(rocky);
+          //rocky.push('prabhakar');
+          //rocky.push('manoj');
+          //rocky.push('manoj');
+          //rocky.unshift('prashu');
+          //rocky.shift('prashu');
+          //rocky.pop();
+
+          let colors = [10, "Green", "Blue"];
+          document.write(colors+'<br>');
+let removed = colors.splice(0,1); 
+ document.write(colors+'<br>');
+document.write(removed+'<br>'); 
+document.write(removed.length+'<br>'); 
+removed = colors.splice(1, 0, "Pink",10, "Yellow"); 
+ document.write(colors+'<br>'); 
+document.write(removed); 
+document.write(removed.length+'<br>'); 
+ 
+removed = colors.splice(0, 1, "Purple", "Voilet"); 
+document.write(colors+'<br>'); 
+document.write(removed+'<br>'); 
+document.write(removed.length+'<br>'); 
+//conacat array
+let pets = ["Cat", "Dog", "Parrot"];
+let wilds = ["Tiger", "Wolf", "Zebra"];
+let animals = pets.concat(wilds); 
+document.write(animals+'<br>');
+//conacat array
+let pet = ["Cat", "Dog", "Parrot","Apple","Ajhkjhkjh"];
+  pet.sort();
+   document.write(pet,);
+   let numbers=[5,10,10,75,50,60,100] 
+   numbers.sort(function(a,b){
+        return a-b ;
+     });
+     document.write(numbers);
+     let pe = ["Cat", "Dog", "Parrot","Apple","Ajhkjhkjh"];
+     pe.reverse();
+     document.write(pe+'<br>');
+     let p = ["Cat", "Dog", "Parrot","Apple","Ajhkjhkjh"];
+     document.write(p.join(' -')+'<br>');
+     document.write(p.join(' @')+'<br>');
+     document.write(p.join(' *')+'<br>');
+     document.write(p.join(' =')+'<br>'  );
+
+//a=5 b=20   5-20=-15  a
+//20-10=10 
+
+     </script>
+</body>
+</html>

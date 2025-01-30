@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+<style>
+   .container{
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;}
+   .dot{
+     height: 100px;
+     width: 100px;
+     background-color: red;
+     border-radius: 50%;
+     animation: prabhakar 1s infinite normal;
+   }
+   @keyframes prabhakar{
+     0%{
+       transform: scale(0.5);
+     }
+     50%{
+       transform: scale(1.5);
+     }
+     100%{
+       transform: scale(0.5);
+     }
+   }
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="dot">
+    
+  </div>
+</div>
+</body>
+
+</html>

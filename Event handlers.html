@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="myBtn">click</button>
+    
+    <button type="button" onclick="alert('this is Onclick event')">click here</button>
+    <button type="button" oncontextmenu="alert('this is oncontextmenu event')">right click here</button>
+    <button type="button" onmouseover="alert('this is a onmouseover event')">mouse over here</button>
+    <button type="button" onmouseout="alert('this is a onmouseout event')">mouse here</button>
+    <button type="button" onkeydown="prompt('this is a onkeydown event')">keydown event</button>
+    <button type="button" onkeyup="prompt('this is a onkeyup event')">keyup event</button>
+
+    <!--<button type="button" onclick="document.write('this is Onclick event')">click here</button>
+    <button type="button" oncontextmenu="document.write('this is oncontextmenu event')">right click here</button>
+    <button type="button" onmouseover="document.write('this is a onmouseover event')">mouse over here</button>
+    <button type="button" onmouseout="document.write('this is a onmouseout event')">mouse here</button>
+    <button type="button" onkeydown="document.write('this is a onkeydown event')">keydown event</button>
+    <button type="button" onkeyup="document.write('this is a onkeyup event')">keyup event</button>
+    <button type="button" onkeypress="document.write('this is a onkeypress event')">keypress event</button>-->
+
+
+    <script>
+        function prabhakar(){
+        }
+        document.getElementById("myBtn").onclick = prabhakar;
+        alert('welcome to my page')
+    
+    </script>
+   
+</body>
+</html>

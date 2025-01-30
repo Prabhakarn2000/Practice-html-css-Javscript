@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+}
+li, a, button{
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #edf0f1;
+      text-decoration: none;
+    }
+    main{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 3px 10px;
+      background-color: #24252A;
+      position: sticky;
+      top: 0;
+      
+    }
+    .logo{
+      cursor: pointer;
+      margin-right:auto;
+    }
+    .nav-bar{
+      list-style: none;
+    }
+    .nav-bar li{
+      display: inline-block;
+      padding: 0px 20px;
+    }
+    .nav-bar li a{
+      transition: alt 0.36 ease 0s;
+      color: white;
+    }
+    .nav-bar li a:hover{
+      color: #0088a9;
+    }
+button{
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: alt 0.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(0, 136, 169, 0.8);
+}
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+.project {
+    width: 200px; 
+    height: 220px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block; 
+    text-align: center;
+    line-height: 200px; 
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+h1{
+  background: linear-gradient(blue,Crimson, green);
+    color: transparent;
+-webkit-background-clip: text;
+}
+.p1{
+  color: lightseagreen;
+  font-weight: bolder;
+}
+.p2{
+  text-align: justify;
+}
+
+ h2 {
+    color: orangered;
+}
+
+#about, #work {
+    background-color: #e9e9e9;
+    padding: 15px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}  

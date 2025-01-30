@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types in JS</title>
+</head>
+<body>
+    <script>
+        //Number datatype ex:
+         let n=10;
+         document.write(n+' ');
+         document.write(typeof(n),' <br>');
+
+         let num=-15.5;
+         document.write(num+' ');
+         document.write(typeof(num),' <br>');
+
+         let numb=4.25e+6;
+         document.write(numb+' ');
+         document.write(typeof(numb),'<br>');
+
+        //String datatype ex:
+        let s="prabhakar";
+        document.write(s," ");
+        document.write(typeof(s),'<br>');
+        
+        let st="100";
+        document.write(st+" ");
+        document.write(typeof(st),'<br>');
+        
+        let str='prabhakar',sr=7680;
+        document.write(str+' ',sr);
+        document.write(typeof(str)+'<br>',typeof(sr)+'<br>');
+    
+       //Boolean data type:true or false
+       let x= 10,y=30;
+       document.write(x>y,' ');
+
+       let a= 10,b=30;
+       document.write(a<b,' ');
+
+       let c=10,d=30;
+       document.write(c==d,'<br>');
+
+       let bool=true;
+       document.write(typeof bool,'<br>');
+
+       //Object data type in JS--> {key:value}
+       let obj={
+        name:'prabhakar',surname:'n',
+       };
+        document.write(obj,' ');
+        document.write(obj,' ');
+        document.write(typeof obj,'<br>');
+        /*console.log(obj,' ');
+        console.log(typeof obj,' <br>');*/
+
+        //Array Data type in Js-->[1,2,3,'prabha',object]-->index start from 0
+        let arr=[1,2.5,'30','prabhakar',{'name':'Prabhakar','surname':'Narramla','education':'M.sc'}];
+         document.write(arr+'<br>');
+         document.write(typeof arr+'<br>');
+         document.write(arr[0]+'<br>');
+         document.write(arr[1]+'<br>');
+         document.write(arr[2]+'<br>');
+         document.write(arr[3]+'<br>');
+         document.write(arr[4],"<br>");
+         document.write(typeof arr[0]+' ');
+         document.write(typeof arr[1]+' ');
+         document.write(typeof arr[2]+' ');
+         document.write(typeof arr[3]+' ');
+         document.write(typeof arr[4]+'<br> ');
+
+         //function data type in JS-->function(){}
+         let greeting=function(){
+            return "Happy Bday to You"
+         };
+         document.write(greeting(),'<br>');
+         document.write(typeof (greeting)+'<br>');
+
+        //undefined data type in JS -->variable declared but not assign or define a value.
+        let u;  //here not define value=undefined
+        document.write(u,'<br>');
+        document.write(typeof (u),'<br>');
+        u=25;   //here define a value=25
+        document.write(u,'<br>');
+        let ud=undefined;
+        document.write(ud,'<br>');
+        document.write(typeof ud,'<br>');
+
+        //null data type in JS-->null= no value or 0 
+        let nl=null;
+        document.write(nl,'<br>');
+        document.write(typeof(nl));
+
+
+
+
+
+
+    </script>
+</body>
+</html>

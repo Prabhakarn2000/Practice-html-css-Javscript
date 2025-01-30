@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    body{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .spiner{
+      background-color: orangered;
+      height: 200px;
+      width: 200px; 
+      border-radius: 50%;
+      border: 25px solid white;
+      border-top: 20px solid indigo;
+      border-bottom: 20px solid green;
+      /* border-left: 20px solid crimson;
+      border-right: 20px solid blue; */
+      animation: prabhakar 1s infinite normal;
+     }
+     @keyframes prabhakar{
+       to{
+         transform: rotate(360deg);
+       }
+     }
+  </style>
+</head>
+
+<body>
+<div class="spiner"></div>
+</body>
+
+</html>
